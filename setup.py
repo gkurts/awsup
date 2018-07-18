@@ -6,4 +6,5 @@ setup(name='awsup',
           'boto3',
           'requests'
       ],
+      scripts=['awsup/awsup.py']
       )
