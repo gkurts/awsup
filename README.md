@@ -1,6 +1,7 @@
 # awsup
 Revokes all SSH IP addresses from the given security group id and adds your current one.
 
+```
 usage: awsup.py [-h] [-p PROFILE] [-s SECURITY_GROUP_ID] [-v]
 
 Update AWS EC2 to allow your current IP through the security groups.
@@ -15,3 +16,4 @@ optional arguments:
 
 The paramters --profile and --security-group can be set with environment
 variables AWS_PROFILE and AWS_SECURITY_GROUP, respecctively
+```
