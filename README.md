@@ -1,6 +1,8 @@
 # awsup
 Revokes all SSH IP addresses from the given security group id and adds your current one.
 
+If you don't want to type the parameters every time, you can store the profile name and security group id in the AWS_PROFILE and AWS_SECURITY_GROUP_ID environment variables, respectively.
+
 ```
 usage: awsup.py [-h] [-p PROFILE] [-s SECURITY_GROUP_ID] [-v]
 
