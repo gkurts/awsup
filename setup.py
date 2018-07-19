@@ -23,6 +23,6 @@ setup(name='awsup',
             'Topic :: System :: Networking',
             'Topic :: System :: Networking :: Firewalls',
             'Topic :: System :: Systems Administration',
-            
+
       ]
       )
