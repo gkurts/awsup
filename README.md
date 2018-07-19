@@ -1,5 +1,5 @@
 # awsup
-AWS EC2 security group updater thingy
+Revokes all SSH IP addresses from the given security group id and adds your current one.
 
 usage: awsup.py [-h] [-p PROFILE] [-s SECURITY_GROUP_ID] [-v]
 
