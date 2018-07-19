@@ -9,7 +9,7 @@ def get_args():
     argparser = argparse.ArgumentParser(description='Update AWS EC2 to allow your current IP through the security groups.',
                                         epilog='The paramters --profile and --security-group can be set with environment variables AWS_PROFILE and AWS_SECURITY_GROUP, respecctively')
     argparser.add_argument('-p', '--profile', help='aws profile name from ~/.aws/credentials.', default=os.environ.get('AWS_PROFILE'))
-    argparser.add_argument('-s', '--security-group', dest='security_group_id', help='AWS EC2 security group ID to run against.', default=os.environ.get('AWS_SECURITY_GROUP'))
+    argparser.add_argument('-s', '--security-group', dest='security_group_id', help='AWS EC2 security group ID to run against.', default=os.environ.get('AWS_SECURITY_GROUP_ID'))
     argparser.add_argument('-v', '--verbose', action='store_true', help='Show full debug output.')
     args = argparser.parse_args()
     if (args.profile is None) or (args.security_group_id is None):
